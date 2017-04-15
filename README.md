@@ -30,25 +30,34 @@ This project is my node.js boilerplate. I do not pretend an open source licenced
 4. Create the database schema `buu`
 
 5. Configure the database access from the app. The config file is
-`config/config.js`. Please set your own `user` and `password` for
+`config/configs.js`. Please set your own `user` and `password` for
 `test` and `development` environments.
 
-6. To run the _unit tests_ run the command:
+6. To run the _unit tests_ run the command (I own a windows 10 laptop):
 
 ```
 mytest.bat
 ```
 
-note: The first time you run you may get error, maybe it's because the
+*note:* The first time you run you may get error, maybe it's because the
 'awakening' of PostgreSQL. the second time you run you won't get errors. 
 
-7. 
+7. When you want to start the app as a server run the command:
+
+```
+mydev.bat
+```
 
 *All of this always on your own risk*
 
+## Main differences regarding the book
+ 
+First difference: the sample code is working (at least in my laptop).
+The second difference is the config directory: in the book it's named
+as `libs`, I named it as `config`.
+
 ## Links
 
-* 
 * [Github repo](https://github.com/jpsalvadorm63/nodejs_bp)
 * [push2github](https://scotch.io/tutorials/how-to-push-an-existing-project-to-github)
 
