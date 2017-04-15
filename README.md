@@ -58,6 +58,7 @@ as `libs`, I named it as `config`.
 
 ## Links
 
+* The book: [Building APIs with Node.js](http://www.apress.com/la/book/9781484224410#otherversion=9781484224427)
 * [Github repo](https://github.com/jpsalvadorm63/nodejs_bp)
 * [push2github](https://scotch.io/tutorials/how-to-push-an-existing-project-to-github)
 
