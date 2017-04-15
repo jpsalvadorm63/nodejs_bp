@@ -48,6 +48,8 @@ mytest.bat
 mydev.bat
 ```
 
+The app should ne running on: `https://localhost:3025`  
+
 *All of this always on your own risk*
 
 ## Main differences regarding the book
