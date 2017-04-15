@@ -11,26 +11,44 @@ My purpose is to use this project as a boiler plate for my small and medium node
 moment I'm using sequelize.js, so that means the databases supported are: MySql, PostgreSQL, Sqlite and
 MS SqlServer, but this code were tested just in PostgreSQL 9.x.
 
-This is my boilerplate, not intended as a open source licenced product at all.
+This project is my node.js boilerplate. I do not pretend an open source licenced product at all.
 
-## If you want to try it
+## If you want to give it a try
 
-1. Install `Node.js`
+1. Maybe you need to install `Node.js`, `Git` and `PostgreSQL`
 
-2. Install `git`
+2. Run the next commands form the OS command line
 
-3. run the next commands form the os command line
+    ```
+    git clone https://github.com/jpsalvadorm63/nodejs_bp.git
+    cd nodejs_bp
+    npm install
+    ```
+    
+3. Create two databases in PostgreSQL: `ntaks` and `ntasks_test`
+
+4. Create the database schema `buu`
+
+5. Configure the database access from the app. The config file is
+`config/config.js`. Please set your own `user` and `password` for
+`test` and `development` environments.
+
+6. To run the _unit tests_ run the command:
 
 ```
-git clone https://github.com/jpsalvadorm63/nodejs_bp.git
-cd nodejs_bp
-npm install
+mytest.bat
 ```
 
-*All of this allways on your own risk*
+note: The first time you run you may get error, maybe it's because the
+'awakening' of PostgreSQL. the second time you run you won't get errors. 
 
-##Links
+7. 
 
+*All of this always on your own risk*
+
+## Links
+
+* 
 * [Github repo](https://github.com/jpsalvadorm63/nodejs_bp)
 * [push2github](https://scotch.io/tutorials/how-to-push-an-existing-project-to-github)
 
