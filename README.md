@@ -1,4 +1,5 @@
-# `nodejs_bp`,A small node.js boilerplate for small or medium projects
+# `nodejs_bp`
+*Small node.js boilerplate for small projects*
 
 ## Introduction
 
