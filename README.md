@@ -1,17 +1,33 @@
-# nodejs_bp
-A small node.js project boilerplate
+# `nodejs_bp`,A small node.js boilerplate for small or medium projects
 
 ## Introduction
-While fallowing the book [Building APIs with Node.js](http://www.apress.com/la/book/9781484224410#otherversion=9781484224427) I found some important errors when implementing the samples. That book in mention is short but provide us a with a whole strategy and good practices to build node.js applications based on REST APIs.
-I worked out all those errors and updated the dependencies as you can see in the `package.json` file.
 
-## A boilerplate
+I started fallowing the book
+[Building APIs with Node.js](http://www.apress.com/la/book/9781484224410#otherversion=9781484224427).
+I my opinion, this short book gives us a whole strategy on how to get a
+_boilerplate_ for publishing your APIs as REST services. It's true if you want a services
+platform suported by:
 
-My purpose is to use this project as a boiler plate for my small and medium node.js projects. At the 
-moment I'm using sequelize.js, so that means the databases supported are: MySql, PostgreSQL, Sqlite and
-MS SqlServer, but this code were tested just in PostgreSQL 9.x.
+- **node.js**, the main platform
+- **express.js**, extends node.js
+- **sequelize.js**, forSQL Databases access (PostgreSQL in this case)
+- **passport.js**, access control
+- **mocha.js**, unint testing
+- **apidoc**, API documenting
+- ... and other dependencies (have a look to `package.json` file)
 
-This project is my node.js boilerplate. I do not pretend an open source licenced product at all.
+I got some important errors when implementing the samples, that's why I wrote this
+code fixing up those error and making some minor changes: for example, my config directory
+is `config` not `libs`. I configured to work with PostgreSQL 9.x not Sqlite. 
+Now the sample code is working (at least in my laptop).
+
+The moving idea behind a boilerplate is to integrate and configure diferent frameworks to concentrate
+myself in design, create and test code about domain and not to worry about middleware.
+Just like when I develop using [Grails](https://www.grails.org) platform (node.js and express.js
+are not in that stage).
+
+This project is my **node.js boilerplate**. I do not pretend it as an open source
+licenced product at all.
 
 ## If you want to give it a try
 
@@ -48,15 +64,21 @@ mytest.bat
 mydev.bat
 ```
 
-The app should ne running on: `https://localhost:3025`  
+8. If you want to run in **cluster** mode, run
 
-*All of this always on your own risk*
+```
+mycluster.bat
+```
 
-## Main differences regarding the book
- 
-First difference: the sample code is working (at least in my laptop).
-The second difference is the config directory: in the book it's named
-as `libs`, I named it as `config`.
+The app should be running on: `https://localhost:3025`
+and the apidocs on `https://localhost:3025/apidoc/` 
+
+Please note, the SSL certificate `2687567_localhost.cert` and `2687567_localhost.key`
+are not serious one. Plese get your own one then configure in **config/boot.js**
+
+*All of this always on your own risk*, but better if you read the book.
+
+
 
 ## Links
 
