@@ -92,4 +92,3 @@ file).
 * [Github repo](https://github.com/jpsalvadorm63/nodejs_bp)
 * [Github repo the web client](https://github.com/jpsalvadorm63/nodejs_bp_web.git).
 * [push2github](https://scotch.io/tutorials/how-to-push-an-existing-project-to-github)
-
