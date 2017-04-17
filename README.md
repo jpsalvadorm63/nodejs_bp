@@ -1,7 +1,7 @@
 # `nodejs_bp`
 *Small node.js boilerplate for small projects*
 
-## about this project
+## about the project
 
 I started fallowing the book
 [Building APIs with Node.js](http://www.apress.com/la/book/9781484224410#otherversion=9781484224427).
@@ -27,6 +27,13 @@ least in my laptop). This is how I got my my own (not a licenced product at all)
 The moving idea behind a boilerplate is to integrate and configure different frameworks to concentrate
 myself in design, create and test code about domain and not to worry about middleware.
 Just like when I develop using [Grails](https://www.grails.org) platform.
+
+**In perspective**: a better boilerplate should:
+
+1. Work with Mongodb
+2. Use GraphQL to improve services over REST protocol
+3. Use better passport.js strategies
+
 
 ## If you want to give this boilerplate a try
 
