@@ -1,6 +1,6 @@
 {
   "name": "sequelize01",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sequelize for database access",
   "main": "index.js",
   "scripts": {
