@@ -64,18 +64,26 @@ waking up of PostgreSQL. the second time you run you won't get errors.
 mydev.bat
 ```
 
-8. If you want to run in **cluster** mode, run
+The app should be running on: `https://localhost:3025` and the apidocs on
+`https://localhost:3025/apidoc/`
 
-```
-mycluster.bat
-```
+**Please note:** the SSL certificate `2687567_localhost.cert` and 
+`2687567_localhost.key` are not serious, your browser will let you know
+problems about `security certificate for this site`. Please get your own
+and private certificate then configure in `config/boot.js`.
 
-The app should be running on: `https://localhost:3025`
-and the apidocs on `https://localhost:3025/apidoc/` 
+At this point going to `https://localhost:3025` is boring, you got just a simple
+message, but `https://localhost:3025/apidoc/` will show you all generated API's
+info.
 
-Please note, the SSL certificate `2687567_localhost.cert` and
-`2687567_localhost.key` are not serious one. Plese get your own one then
-configure in `config/boot.js`.
+The [nodejs_bp](https://github.com/jpsalvadorm63/nodejs_bp) is a web services
+application, just the `apidoc`s look sexy. 
+
+8. If you want to run in **cluster** mode, run `mycluster.bat`
+
+
+ 
+
 
 *All of this always on your own risk*, but better if you read the book.
 
