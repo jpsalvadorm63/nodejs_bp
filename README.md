@@ -17,8 +17,7 @@ platform suported by:
 - **apidoc**, API documenting
 - ... and other dependencies (have a look to `package.json` file)
 
-I got some errors when implementing the samples, that's why I wrote this
-code, actually 100% copied from the book and pasted in my local project, then
+I got some errors when implementing the samples, that's why I wrote a modified version of the original code, actually 100% copied from the book and pasted in my local project, then
 at most a 10% of that code was fixed up and improved with some minor changes:
 for example, my config directory is `config` not `libs`. I configured to
 work with PostgreSQL 9.x not Sqlite. Now the sample code is working (at
