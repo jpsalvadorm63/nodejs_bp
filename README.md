@@ -77,21 +77,19 @@ message, but `https://localhost:3025/apidoc/` will show you all generated API's
 info.
 
 The [nodejs_bp](https://github.com/jpsalvadorm63/nodejs_bp) is a web services
-application, just the `apidoc`s look sexy. 
-
+application, just the `apidoc` looks sexy. To really test, you need to install
+and run another project [the web client](https://github.com/jpsalvadorm63/nodejs_bp_web.git),
+it will run using url `https://localhost:3025` (plese the nodejs_bp_web README.md
+file).
+ 
 8. If you want to run in **cluster** mode, run `mycluster.bat`
 
-
- 
-
-
 *All of this always on your own risk*, but better if you read the book.
-
-
 
 ## Links
 
 * The book: [Building APIs with Node.js](http://www.apress.com/la/book/9781484224410#otherversion=9781484224427)
 * [Github repo](https://github.com/jpsalvadorm63/nodejs_bp)
+* [Github repo the web client](https://github.com/jpsalvadorm63/nodejs_bp_web.git).
 * [push2github](https://scotch.io/tutorials/how-to-push-an-existing-project-to-github)
 
